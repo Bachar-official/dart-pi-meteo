@@ -1,0 +1,21 @@
+name: pi_dart_app
+description: A sample command-line application.
+version: 1.0.0
+# homepage: https://www.example.com
+
+environment:
+  sdk: '>=2.16.2 <3.0.0'
+
+
+# dependencies:
+#   path: ^1.8.0
+assets:
+    - assets/measures.db
+
+dev_dependencies:
+  lints: ^1.0.0
+  test: ^1.16.0
+dependencies: 
+  dart_periphery: ^0.9.1
+  intl: ^0.17.0
+  sqlite3: ^1.7.0
